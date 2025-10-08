@@ -56,6 +56,59 @@
   text-align: center;
 }
 
+/* Fact Section */
+
+.fact__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fact__container__row {
+  display: flex;
+  flex-direction: row;
+  gap: 230px;
+  margin: 2em 0;
+}
+
+.fact__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.fact__section__bold__text {
+  font-weight: 700;
+  padding: 1em 0 0.5em;
+}
+
+.fact__section__icon {
+  width: 80px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 1em;
+}
+
+/* Fact Section Colours */
+
+.orange {
+  background-color: #fef6ee;
+}
+
+.blue {
+  background-color: #e8fafa;
+}
+
+.pink {
+  background-color: #f7ebf9;
+}
+
+.red {
+  background-color: #ffeff3;
+}
+
+.purple {
+  background-color: #ede8f7;
+=======
 .tabs__image-description {
   margin-top: 10px;
 }
