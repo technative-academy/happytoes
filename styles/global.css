@@ -20,6 +20,11 @@ p {
   margin: 0;
 }
 
+
+h3 {
+  margin: 0;
+}
+
 /* Header/Nav */
 .header__container {
   display: flex;
