@@ -23,3 +23,34 @@ p {
 h3 {
   margin: 0;
 }
+
+/* Header/Nav */
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4em 0 2em;
+}
+
+.header__img {
+  width: 300px;
+}
+
+.nav__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  gap: 120px;
+  padding: 0;
+}
+
+.nav__container__links {
+  text-decoration: none;
+  color: #4e5a65;
+}
+
+.nav__container__links:hover {
+  text-decoration: underline;
+}
