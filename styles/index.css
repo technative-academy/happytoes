@@ -1,0 +1,31 @@
+/** Hero Banner **/
+.hero__banner__title {
+  text-align: center;
+}
+
+.hero__banner__tagline {
+  text-align: center;
+}
+
+.hero__banner__image {
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hero__banner__trusted-partners__text {
+  text-align: center;
+  
+}
+
+.hero__banner__trusted-partners__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+
