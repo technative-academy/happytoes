@@ -16,6 +16,10 @@ body {
   margin: 0 auto;
 }
 
+p {
+  margin: 0;
+}
+
 /* Header/Nav */
 .header__container {
   display: flex;
