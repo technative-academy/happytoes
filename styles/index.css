@@ -1,10 +1,22 @@
 /** Hero Banner **/
 .hero__banner__title {
   text-align: center;
+  font-size: 4.5rem;
+  font-weight: 600;
+  background-color: #f0ebfa;
+  margin: 0 0 0 0;
 }
 
 .hero__banner__tagline {
+  background-color: #f0ebfa;
+  border-bottom: 100px solid #f0ebfa;
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
   text-align: center;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .hero__banner__image {
