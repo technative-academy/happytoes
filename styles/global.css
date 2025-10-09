@@ -27,15 +27,18 @@ h3 {
 
 /* Header/Nav */
 .header__container {
+  background-color:  #f0ebfa;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 4em 0 2em;
+  margin: 0em 0 0em;
+  padding-bottom: 2rem;
 }
 
 .header__img {
   width: 300px;
+  padding-top: 2rem;
 }
 
 .nav__container {

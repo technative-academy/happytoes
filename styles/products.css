@@ -1,0 +1,50 @@
+/* Products Search Bar */
+.products {
+  text-align: center;
+}
+
+.products__title {
+  font-size: 4.5rem;
+  font-weight: 600;
+  background-color: #f0ebfa;
+  margin: 0 0 0 0;
+}
+
+.products__tagline {
+  background-color: #f0ebfa;
+  border-bottom: 100px solid #f0ebfa;
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.products__search-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+
+.products__form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+}
+
+.products__search-input {
+  width: 450px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.products__count {
+  font-size: 0.9rem;
+  color: #666;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
