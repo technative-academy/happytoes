@@ -51,7 +51,7 @@
   max-width: 600px;
 }
 
-.tabs__image-section {
+.tabs__content {
   flex: 1;
   text-align: center;
 }
@@ -127,6 +127,7 @@
 
 .tabs__item {
   padding: 0 1.25em;
+  border-left: 3px solid transparent;
 }
 
 .tabs__item-title {
@@ -137,14 +138,18 @@
   padding-bottom: 50px;
 }
 
-.tabs__item:hover {
+.tabs__item:hover,
+.active {
   background: #f6f3fc;
-  border-left: 3px solid #8a4bff;
+  border-color: #8a4bff;
 }
 
-.tabs__item--active {
-  background: #f6f3fc;
-  border-left: 3px solid #8a4bff;
+.tabs__content__item {
+    display: none;
+}
+
+.tabs__content__item.active { /* class added/removed by JavaScript */
+    display: block;
 }
 
 /** Review Section **/

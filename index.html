@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
 
-    <script defer src="./scripts/index.js"></script>
+    <script defer type="module" src="./scripts/index.js"></script>
   </head>
   <body>
     <!-- Header/Nav  -->
@@ -63,28 +63,36 @@
       <section class="tabs">
         <div class="tabs__container">
           <!-- Left side -->
-          <div class="tabs__image-section">
-            <div class="tabs__image-wrapper">
-              <img src="./assets/placeholder.png" alt="example image" />
+          <div class="tabs__content">
+            <div data-tab-content="one" class="tabs__content__item active">
+              <div class="tabs__image-wrapper">
+                <img src="./assets/placeholder.png" alt="example image" />
+              </div>
+              <p class="tabs__image-description">Some text about this image</p>
             </div>
-            <p class="tabs__image-description">Some text about this image</p>
+            <div data-tab-content="two" class="tabs__content__item">
+              <div class="tabs__image-wrapper">
+                <img src="./assets/placeholder.png" alt="example image" />
+              </div>
+              <p class="tabs__image-description">Second image </p>
+            </div>
           </div>
           <!-- Right side -->
           <div class="tabs__list">
             <ul>
-              <li class="tabs__item tabs__item--active">
+              <li data-tab="one" class="tabs__item active">
                 <h3 class="tabs__item-title">First tab title</h3>
                 <p class="tabs__item-text">First tab text</p>
               </li>
-              <li class="tabs__item">
+              <li data-tab="two" class="tabs__item">
                 <h3 class="tabs__item-title">Second tab title</h3>
                 <p class="tabs__item-text">Second tab text</p>
               </li>
-              <li class="tabs__item">
+              <li data-tab="three" class="tabs__item">
                 <h3 class="tabs__item-title">Third tab title</h3>
                 <p class="tabs__item-text">Third tab text</p>
               </li>
-              <li class="tabs__item">
+              <li data-tab="four" class="tabs__item">
                 <h3 class="tabs__item-title">Fourth tab title</h3>
                 <p class="tabs__item-text">Fourth tab text</p>
               </li>
