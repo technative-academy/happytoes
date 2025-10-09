@@ -12,7 +12,6 @@ body {
   font-family: "Inter", sans-serif;
   color: #4e5a65;
   background-color: #fbfafe;
-  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -71,26 +70,28 @@ h4 {
 .footer__section {
   background-color: #1d2830;
   color: #fff;
-  padding: 5em 11em;
+  padding: 4em;
 }
 
 .footer__section__top {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 
 .footer__section__bottom {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: start;
   padding: 4em 0 0.5em;
 }
 
 .footer__section__left {
   display: flex;
   flex-direction: column;
+  margin: 0 0 1em 0;
 }
 
 .footer__section__right {
@@ -102,4 +103,32 @@ h4 {
   text-decoration: none;
   color: #fff;
   padding: 0.5em 0;
+}
+.footer__section__links img {
+  width: 44px;
+  height: 44px;
+  background-color: #4e5a65;
+  border-radius: 50%;
+  padding: 0.5em;
+}
+
+.footer__section__socials {
+  display: flex;
+  gap: 1em;
+  margin: 1em 0 0;
+}
+
+@media (min-width: 768px) {
+  .footer__section {
+    padding: 5em 15em;
+  }
+
+  .footer__section__top,
+  .footer__section__bottom {
+    flex-direction: row;
+  }
+
+  .footer__section__bottom {
+    align-items: center;
+  }
 }
