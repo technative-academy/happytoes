@@ -29,9 +29,13 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  margin: 0;
+}
+
 /* Header/Nav */
 .header__container {
-  background-color:  #f0ebfa;
+  background-color: #f0ebfa;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,4 +65,41 @@ h3 {
 
 .nav__container__links:hover {
   text-decoration: underline;
+}
+
+/* Footer */
+.footer__section {
+  background-color: #1d2830;
+  color: #fff;
+  padding: 5em 11em;
+}
+
+.footer__section__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__section__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4em 0 0.5em;
+}
+
+.footer__section__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__section__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__section__links {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5em 0;
 }
