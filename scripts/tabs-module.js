@@ -4,7 +4,12 @@ class TabsModule {
 
 		this.tabButtons = this.tabsContainer.querySelectorAll(".tabs__item");
 
-		this.tabContents = this.tabsContainer.querySelectorAll(".tab__content");
+		console.log("tabs ", this.tabButtons)
+
+		this.tabContents = this.tabsContainer.querySelectorAll(".tabs__content__item");
+
+		console.log("contents. ", this.tabContents);
+
 		this.tabButtons.forEach((tabButton) => {
 			tabButton.addEventListener("click", (event) =>
 				this.tabClicked(event)
@@ -17,8 +22,10 @@ class TabsModule {
 		const tabId = clickedButton.dataset.tab;
 
 		const detailsElement = this.tabsContainer.querySelector(
-			`.tabs__content[data-tab-content="${tabId}"]`
+			`.tabs__content__item[data-tab-content="${tabId}"]`
 		);
+
+		console.log('details element ', detailsElement);
 
 		// Remove active class from all buttons and content
 		this.tabButtons.forEach((button) => button.classList.remove("active"));
