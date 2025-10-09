@@ -159,6 +159,52 @@
   border-left: 3px solid #8a4bff;
 }
 
+/* CTA Section */
+
+.cta__section {
+  padding: 2em;
+  background-color: #f0ebfa;
+  display: flex;
+  justify-content: center;
+}
+
+.cta__section__container {
+  max-width: 1100px;
+  gap: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta__section__text {
+  flex: 1;
+  margin: 2em;
+}
+
+.cta__section__text__p {
+  margin: 1em 0 0;
+}
+
+.cta__section__img__container {
+  flex: 1;
+}
+
+.cta__section__img {
+  width: 100%;
+}
+
+.cta__section__btn__container {
+  margin: 3em 0;
+}
+
+.cta__section__btn {
+  background-color: #7b61ff;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border-radius: 8px;
+}
+
 /** Review Section **/
 
 .review__section {
@@ -232,4 +278,16 @@
   border-radius: 12px;
   max-width: 800px;
   margin: 0 auto;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+  .cta__section__container {
+    gap: 4em;
+    flex-direction: row;
+  }
+  .cta__section {
+    padding: 4em 2em;
+  }
 }
