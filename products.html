@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <script defer src="./scripts/products.js"></script>
+    <script defer type="module" src="./scripts/products.js"></script>
   </head>
   <body>
     <!-- Header/Nav  -->
@@ -39,57 +39,122 @@
         <p class="products__tagline">
           <em> If you like them you really should buy one </em>
         </p>
-        <h2 class="products__search-title">
-          Find the product you're looking for
-        </h2>
-        <form class="products__form">
-          <input
-            class="products__search-input"
-            type="text"
-            placeholder="Search products"
-          />
-        </form>
-        <p class="products__count"><em>6 products found</em></p>
       </section>
+      <div class="content">
+        <section class="search__container">
+          <h2 class="products__search-title">
+            Find the product you're looking for
+          </h2>
+          <form class="products__form">
+            <input
+              name="search"
+              class="products__search-input"
+              type="search"
+              placeholder="Search products"
+            />
+          </form>
+          <p class="products__count">
+            <span class="products__count__number">6</span> products found
+          </p>
+        </section>
 
-      <!-- Product Section  -->
-      <section>
-        <div>
-          <img src="./assets/placeholder.png" alt="" />
-          <h3>Product Title</h3>
-          <p>Product Desc</p>
-          <img src="" alt="" />
-          <p>£6.99</p>
-          <img src="./assets/placeholder.png" alt="" />
-          <h3>Product Title</h3>
-          <p>Product Desc</p>
-          <img src="" alt="" />
-          <p>£6.99</p>
-          <img src="./assets/placeholder.png" alt="" />
-          <h3>Product Title</h3>
-          <p>Product Desc</p>
-          <img src="" alt="" />
-          <p>£6.99</p>
-        </div>
-        <div>
-          <img src="./assets/placeholder.png" alt="" />
-          <h3>Product Title</h3>
-          <p>Product Desc</p>
-          <img src="" alt="" />
-          <p>£6.99</p>
-          <img src="./assets/placeholder.png" alt="" />
-          <h3>Product Title</h3>
-          <p>Product Desc</p>
-          <img src="" alt="" />
-          <p>£6.99</p>
-          <img src="./assets/placeholder.png" alt="" />
-          <h3>Product Title</h3>
-          <p>Product Desc</p>
-          <img src="" alt="" />
-          <p>£6.99</p>
-        </div>
-        <button class="">Show More</button>
-      </section>
+        <!-- Product Section  -->
+        <section class="listings-container">
+          <div class="listings">
+            <article class="listings-item">
+              <img src="./assets/socks/socks-1.jpg" alt="" />
+              <h3 class="listings__title">Funky socks</h3>
+              <p class="listings__desc">
+                Ac tortor vitae purus faucibus. Lorem ipsum dolor sit amet.
+              </p>
+              <div class="ratings">
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star"></span>
+                <span class="rating-star"></span>
+              </div>
+              <p class="listings__price">£6.99</p>
+            </article>
+            <article class="listings-item">
+              <img src="./assets/socks/socks-2.jpg" alt="" />
+              <h3 class="listings__title">Dodgy socks</h3>
+              <p class="listings__desc">
+                Ac tortor vitae purus faucibus. Lorem ipsum dolor sit amet.
+              </p>
+              <div class="ratings">
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star"></span>
+                <span class="rating-star"></span>
+              </div>
+              <p class="listings__price">£6.99</p>
+            </article>
+            <article class="listings-item">
+              <img src="./assets/socks/socks-3.jpg" alt="" />
+              <h3 class="listings__title">Zany socks</h3>
+              <p class="listings__desc">
+                Ac tortor vitae purus faucibus. Lorem ipsum dolor sit amet.
+              </p>
+              <div class="ratings">
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star"></span>
+                <span class="rating-star"></span>
+              </div>
+              <p class="listings__price">£6.99</p>
+            </article>
+            <article class="listings-item">
+              <img src="./assets/socks/socks-4.jpg" alt="" />
+              <h3 class="listings__title">Wacky socks</h3>
+              <p class="listings__desc">
+                Ac tortor vitae purus faucibus. Lorem ipsum dolor sit amet.
+              </p>
+              <div class="ratings">
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star"></span>
+                <span class="rating-star"></span>
+              </div>
+              <p class="listings__price">£6.99</p>
+            </article>
+            <article class="listings-item">
+              <img src="./assets/socks/socks-5.jpg" alt="" />
+              <h3 class="listings__title">Crazy socks</h3>
+              <p class="listings__desc">
+                Ac tortor vitae purus faucibus. Lorem ipsum dolor sit amet.
+              </p>
+              <div class="ratings">
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star"></span>
+                <span class="rating-star"></span>
+              </div>
+              <p class="listings__price">£6.99</p>
+            </article>
+            <article class="listings-item">
+              <img src="./assets/socks/socks-6.jpg" alt="" />
+              <h3 class="listings__title">Wavy socks</h3>
+              <p class="listings__desc">
+                Ac tortor vitae purus faucibus. Lorem ipsum dolor sit amet.
+              </p>
+              <div class="ratings">
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star checked"></span>
+                <span class="rating-star"></span>
+                <span class="rating-star"></span>
+              </div>
+              <p class="listings__price">£6.99</p>
+            </article>
+          </div>
+          <button class="btn listings__show-more">Show More</button>
+        </section>
+      </div>
     </main>
 
     <!-- Footer -->
