@@ -1,5 +1,18 @@
 /* Products Search Bar */
-.products {
+
+:root {
+  --listing-card-width: 348px;
+  --spacing-large: 33px;
+}
+
+.products .content {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products__intro,
+.search__container {
   text-align: center;
 }
 
@@ -7,7 +20,7 @@
   font-size: 4.5rem;
   font-weight: 600;
   background-color: #f0ebfa;
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
 .products__tagline {
@@ -22,29 +35,111 @@
 }
 
 .products__search-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  padding-top: 0.5rem;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 36px;
 }
 
 .products__form {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0.75rem;
+  margin-bottom: 36px;
 }
 
 .products__search-input {
-  width: 450px;
-  padding: 0.6rem 1rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  width: 540px;
+  padding: 18px 1.5rem;
+  border: 1px solid #e1e5ea;
+  border-radius: 4px;
   font-size: 1rem;
 }
 
+.products__search-input::placeholder {
+  color: #97a5b5;
+}
+
 .products__count {
-  font-size: 0.9rem;
-  color: #666;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  color: #4e5a65;
+  margin-bottom: 36px;
+  font-style: italic;
+}
+
+.listings {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--listing-card-width), 1fr)
+  );
+  gap: var(--spacing-large);
+  row-gap: calc(2 * var(--spacing-large));
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--spacing-large) 1rem;
+}
+
+.listings-item img {
+  width: 100%;
+  border-radius: 52px;
+  margin-bottom: 30px;
+}
+
+.listings__show-more {
+  display: flex;
+  justify-content: center;
+  background-color: #7b61ff;
+  color: #fff;
+  border: none;
+  padding: 21px 18px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  margin: var(--spacing-large) auto;
+  width: 348px;
+}
+
+.listings-item h3,
+.listings-item p,
+.listings-item .ratings {
+  padding: 0 30px;
+}
+
+.listings-item h3 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 0.75rem;
+}
+
+.listings__desc {
+  font-style: italic;
+  line-height: 1.5rem;
+}
+
+.listings__price {
+  font-weight: 700;
+}
+
+.rating-star {
+  mask: url("../assets/icons/rating-star.svg") no-repeat;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #d9d9d9;
+  margin: 0.5rem 0;
+}
+
+.checked {
+  background-color: #ffb31f;
+}
+
+@media (min-width: 1024px) {
+  .listings {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.hide {
+  display: none;
 }
