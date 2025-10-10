@@ -184,6 +184,16 @@
   background-color: #574bff;
 }
 
+/* Contact Form Thank You Message */
+
+.contact__thankyou {
+  display: none;
+}
+
+.contact__thankyou--visible {
+  display: block;
+}
+
 @media (min-width: 768px) {
   .about__container {
     flex-direction: row;
