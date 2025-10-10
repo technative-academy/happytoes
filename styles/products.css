@@ -90,11 +90,17 @@
   padding: 21px 18px;
   font-size: 1rem;
   border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease-in-out;
   text-decoration: none;
   margin: var(--spacing-large) auto;
   width: 348px;
+}
+
+.listings-item:hover,
+.listings__show-more:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .listings-item h3,
@@ -133,13 +139,14 @@
   background-color: #ffb31f;
 }
 
+
+.hide {
+  display: none;
+}
+
 @media (min-width: 1024px) {
   .listings {
     padding-left: 0;
     padding-right: 0;
   }
-}
-
-.hide {
-  display: none;
 }
