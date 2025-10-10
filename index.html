@@ -23,13 +23,13 @@
         src="./assets/happytoes-logo.png"
         alt="HappyToes logo"
       />
-      <nav>
-        <ul class="nav__container">
-          <li><a class="nav__container__links" href="#">Home</a></li>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li><a class="header__nav-item" href="#">Home</a></li>
           <li>
-            <a class="nav__container__links" href="products.html">Products</a>
+            <a class="header__nav-item" href="products.html">Products</a>
           </li>
-          <li><a class="nav__container__links" href="about.html">About</a></li>
+          <li><a class="header__nav-item" href="about.html">About</a></li>
         </ul>
       </nav>
     </header>
@@ -40,7 +40,11 @@
           Redefine comfort, one step at a time.
         </h1>
         <p class="hero__banner__tagline"><em>Style Starts at Your Feet.</em></p>
-        <img class="hero__banner__image" src="./assets/socks-hero.jpg" alt="" />
+        <img
+          class="hero__banner__image"
+          src="./assets/socks-hero.jpg"
+          alt="A collection of colourful socks."
+        />
         <div class="hero__banner__trusted-partners">
           <p class="hero__banner__trusted-partners__text">
             TRUSTED BY SOME COMPANIES YOU MIGHT HAVE HEARD OF
@@ -110,84 +114,84 @@
       </section>
 
       <!-- Fact Section -->
-      <section class="fact__container">
+      <section class="fact">
         <h2>Some facts about the company</h2>
 
-        <div class="fact__container__row">
-          <div class="fact__section">
+        <div class="fact__row">
+          <div class="fact__item">
             <img
-              class="fact__section__icon orange"
+              class="fact__icon orange"
               src="./assets/icons/face-smile-solid-full.svg"
               alt="Smiley face icon"
             />
-            <p class="fact__section__bold__text">Bold text</p>
+            <p class="fact__text--bold">Bold text</p>
             <p>Underneath text</p>
           </div>
-          <div class="fact__section">
+          <div class="fact__item">
             <img
-              class="fact__section__icon blue"
+              class="fact__icon blue"
               src="./assets/icons/music-solid-full.svg"
               alt="Music symbol icon"
             />
-            <p class="fact__section__bold__text">Bold text</p>
+            <p class="fact__text--bold">Bold text</p>
             <p>Underneath text</p>
           </div>
-          <div class="fact__section">
+          <div class="fact__item">
             <img
-              class="fact__section__icon pink"
+              class="fact__icon pink"
               src="./assets/icons/rainbow-solid-full.svg"
               alt="Rainbow icon"
             />
-            <p class="fact__section__bold__text">Bold text</p>
+            <p class="fact__text--bold">Bold text</p>
             <p>Underneath text</p>
           </div>
         </div>
 
-        <div class="fact__container__row">
-          <div class="fact__section">
+        <div class="fact__row">
+          <div class="fact__item">
             <img
-              class="fact__section__icon red"
+              class="fact__icon red"
               src="./assets/icons/scissors-solid-full.svg"
               alt="Scissors icon"
             />
-            <p class="fact__section__bold__text">Bold text</p>
+            <p class="fact__text--bold">Bold text</p>
             <p>Underneath text</p>
           </div>
-          <div class="fact__section">
+          <div class="fact__item">
             <img
-              class="fact__section__icon purple"
+              class="fact__icon purple"
               src="./assets/icons/shoe-prints-solid-full.svg"
               alt="Shoe prints icon"
             />
-            <p class="fact__section__bold__text">Bold text</p>
+            <p class="fact__text--bold">Bold text</p>
             <p>Underneath text</p>
           </div>
-          <div class="fact__section">
+          <div class="fact__item">
             <img
-              class="fact__section__icon orange"
+              class="fact__icon orange"
               src="./assets/icons/socks-solid-full.svg"
               alt="Socks icon"
             />
-            <p class="fact__section__bold__text">Bold text</p>
+            <p class="fact__text--bold">Bold text</p>
             <p>Underneath text</p>
           </div>
         </div>
       </section>
 
       <!-- CTA Section -->
-      <section class="cta__section">
-        <div class="cta__section__container">
-          <div class="cta__section__text">
+      <section class="cta">
+        <div class="cta__container">
+          <div class="cta__text">
             <h2>Something important</h2>
-            <p class="cta__section__text__p">text goes here</p>
-            <div class="cta__section__btn__container">
-              <a class="cta__section__btn" href="">Link goes here</a>
+            <p class="cta__paragraph">text goes here</p>
+            <div class="cta__button-wrapper">
+              <a class="cta__button" href="">Link goes here</a>
             </div>
           </div>
 
-          <div class="cta__section__img__container">
+          <div class="cta__image-wrapper">
             <img
-              class="cta__section__img"
+              class="cta__image"
               src="./assets/halloween-socks.jpg"
               alt="A selection of colourful Halloween socks"
             />
@@ -237,58 +241,54 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer__section">
-      <div class="footer__section__top">
-        <div class="footer__section__left">
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__column--left">
           <h4>Company</h4>
           <nav>
-            <ul class="footer__section__list">
+            <ul class="footer__list">
               <li>
-                <a class="footer__section__links" href="about.html"
-                  >Contact Us</a
-                >
+                <a class="footer__item" href="about.html">Contact Us</a>
               </li>
               <li>
-                <a class="footer__section__links" href="products.html"
-                  >Products</a
-                >
+                <a class="footer__item" href="products.html">Products</a>
               </li>
             </ul>
           </nav>
         </div>
-        <div class="footer__section__right">
+        <div class="footer__column--right">
           <h4>Legal</h4>
           <nav>
-            <ul class="footer__section__list">
+            <ul class="footer__list">
               <li>
-                <a class="footer__section__links" href="#">Cookies Policy</a>
+                <a class="footer__item" href="#">Cookies Policy</a>
               </li>
               <li>
-                <a class="footer__section__links" href="#">Privacy Policy</a>
+                <a class="footer__item" href="#">Privacy Policy</a>
               </li>
               <li>
-                <a class="footer__section__links" href="#">Terms of Service</a>
+                <a class="footer__item" href="#">Terms of Service</a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
 
-      <div class="footer__section__bottom">
+      <div class="footer__bottom">
         <div>
           <p>Copyright goes here</p>
         </div>
-        <div class="footer__section__socials">
-          <a class="footer__section__links" href="#"
+        <div class="footer__socials">
+          <a class="footer__social-link" href="#"
             ><img src="./assets/icons/instagram.svg" alt="Instagram icon"
           /></a>
-          <a class="footer__section__links" href="#"
+          <a class="footer__social-link" href="#"
             ><img src="./assets/icons/pinterest.svg" alt="Pinterest icon"
           /></a>
-          <a class="footer__section__links" href="#"
+          <a class="footer__social-link" href="#"
             ><img src="./assets/icons/twitter.svg" alt="Twitter icon"
           /></a>
-          <a class="footer__section__links" href="#"
+          <a class="footer__social-link" href="#"
             ><img src="./assets/icons/youtube.svg" alt="YouTube icon"
           /></a>
         </div>

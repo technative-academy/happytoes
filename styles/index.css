@@ -72,31 +72,31 @@
 
 /* Fact Section */
 
-.fact__container {
+.fact {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 4em 0;
 }
 
-.fact__container__row {
+.fact__row {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin: 2em 0;
 }
 
-.fact__section {
+.fact__item {
   display: flex;
   flex-direction: column;
 }
 
-.fact__section__bold__text {
+.fact__text--bold {
   font-weight: 700;
   padding: 1em 0 0.5em;
 }
 
-.fact__section__icon {
+.fact__icon {
   width: 80px;
   background-color: red;
   border-radius: 50%;
@@ -170,14 +170,14 @@
 
 /* CTA Section */
 
-.cta__section {
+.cta {
   padding: 2em;
   background-color: #f0ebfa;
   display: flex;
   justify-content: center;
 }
 
-.cta__section__container {
+.cta__container {
   max-width: 1100px;
   gap: 0.5em;
   display: flex;
@@ -185,29 +185,29 @@
   justify-content: center;
 }
 
-.cta__section__text {
+.cta__text {
   flex: 1;
   margin: 2em;
 }
 
-.cta__section__text__p {
+.cta__paragraph {
   margin: 1em 0 0;
 }
 
-.cta__section__img__container {
+.cta__image-wrapper {
   flex: 1;
 }
 
-.cta__section__img {
+.cta__image {
   width: 100%;
   border-radius: 30px;
 }
 
-.cta__section__btn__container {
+.cta__button-wrapper {
   margin: 3em 0;
 }
 
-.cta__section__btn {
+.cta__button {
   background-color: #7b61ff;
   color: #fff;
   text-decoration: none;
@@ -339,15 +339,15 @@
 /* Media Queries */
 
 @media (min-width: 768px) {
-  .cta__section__container {
+  .cta__container {
     gap: 4em;
     flex-direction: row;
   }
-  .cta__section {
+  .cta {
     padding: 4em 2em;
   }
 
-  .fact__container__row {
+  .fact__row {
     flex-direction: row;
     gap: 230px;
   }
