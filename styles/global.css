@@ -1,3 +1,5 @@
+@import url("variables.css");
+
 html {
   box-sizing: border-box;
 }
@@ -10,42 +12,41 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
-  color: #4e5a65;
-  background-color: #fbfafe;
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
   margin: 0 auto;
 }
 
-p {
-  margin: 0;
-}
-
-h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-h3 {
-  margin: 0;
-}
-
+p,
+h1,
+h2,
+h3,
 h4 {
   margin: 0;
 }
 
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
 /* Header/Nav */
 .header__container {
-  background-color: #f0ebfa;
+  background-color: var(--color-bg-highlight);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0em 0 0em;
-  padding-bottom: 2rem;
+  margin: 0;
+  padding-bottom: 2em;
 }
 
 .header__img {
   width: 300px;
-  padding-top: 2rem;
+  padding-top: 2em;
 }
 
 .header__nav-list {
@@ -59,7 +60,7 @@ h4 {
 
 .header__nav-item {
   text-decoration: none;
-  color: #4e5a65;
+  color: var(--color-text);
 }
 
 .header__nav-item:hover {
@@ -69,7 +70,7 @@ h4 {
 /* Footer */
 .footer {
   background-color: #1d2830;
-  color: #fff;
+  color: var(--color-white);
   padding: 4em;
 }
 
@@ -109,7 +110,7 @@ h4 {
 
 .footer__item {
   text-decoration: none;
-  color: #fff;
+  color: var(--color-white);
 }
 
 .footer__item:hover {

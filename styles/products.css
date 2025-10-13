@@ -1,3 +1,5 @@
+@import url("variables.css");
+
 /* Products Search Bar */
 
 :root {
@@ -17,36 +19,29 @@
 }
 
 .products__title {
-  font-size: 4.5rem;
-  font-weight: 600;
-  background-color: #f0ebfa;
-  margin: 0;
+  background-color: var(--color-bg-highlight);
 }
 
 .products__tagline {
-  background-color: #f0ebfa;
-  border-bottom: 100px solid #f0ebfa;
+  background-color: var(--color-bg-highlight);
+  border-bottom: 100px solid var(--color-bg-highlight);
   border-bottom-left-radius: 50% 100%;
   border-bottom-right-radius: 50% 100%;
-  margin-bottom: 3rem;
-  font-size: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1.5rem;
+  margin: 0 0 3em;
+  padding: 1em 0 1.5em;
 }
 
 .products__search-title {
-  font-size: 4rem;
-  font-weight: 600;
-  margin-bottom: 36px;
+  margin-bottom: 2.25em;
 }
 
 .products__form {
-  margin-bottom: 36px;
+  margin-bottom: 2.25em;
 }
 
 .products__search-input {
   width: 540px;
-  padding: 18px 1.5rem;
+  padding: 1.25em 1.5rem;
   border: 1px solid #e1e5ea;
   border-radius: 4px;
   font-size: 1rem;
@@ -57,8 +52,8 @@
 }
 
 .products__count {
-  color: #4e5a65;
-  margin-bottom: 36px;
+  color: var(--color-text);
+  margin-bottom: 2.25em;
   font-style: italic;
 }
 
@@ -78,17 +73,18 @@
 .listings-item img {
   width: 100%;
   border-radius: 52px;
-  margin-bottom: 30px;
+  margin-bottom: 2em;
 }
 
 .listings__show-more {
   display: flex;
   justify-content: center;
-  background-color: #7b61ff;
-  color: #fff;
+  background-color: var(--color-orange);
+  color: var(--color-white);
   border: none;
-  padding: 21px 18px;
-  font-size: 1rem;
+  padding: 1.5em 1.2em;
+  font-size: var(--text-button);
+  font-weight: var(--weight-button);
   border-radius: 8px;
   transition: background-color 0.3s ease-in-out;
   text-decoration: none;
@@ -110,16 +106,15 @@
 }
 
 .listings-item h3 {
-  font-family: Inter;
   font-weight: 600;
   font-size: 28px;
   line-height: 36px;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.75em;
 }
 
 .listings__desc {
   font-style: italic;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 .listings__price {
@@ -132,13 +127,12 @@
   width: 24px;
   height: 24px;
   background-color: #d9d9d9;
-  margin: 0.5rem 0;
+  margin: 0.5em 0;
 }
 
 .checked {
   background-color: #ffb31f;
 }
-
 
 .hide {
   display: none;
