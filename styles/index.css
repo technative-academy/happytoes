@@ -297,6 +297,24 @@
   margin: 0 auto;
 }
 
+.review__section__container__text {
+  transition: opacity 0.4s ease;
+}
+
+.review__section__container__text.fade-out {
+  opacity: 0;
+}
+
+.review__item {
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.review__item:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px) {
