@@ -1,0 +1,24 @@
+:root {
+  /* Brand Colours */
+  --color-text: #2d2d2d;
+  --color-white: #fbfafe;
+  --color-orange: #ff751f; /*buttons */
+  --color-orange-hover: #e86510;
+  --color-pink: #ed1d78; /* accent text */
+
+  /* Section Backgrounds */
+  --color-bg-main: #fbfafe;
+  --color-bg-highlight: #f2e8ff;
+  --color-bg-tab: #faf7fb;
+
+  /* Text sizes */
+  --text-sm: 1rem;
+  --text-button: 1rem;
+
+  /* Font weights */
+
+  --weight-button: 500;
+
+  /* Border Radius */
+  --radius-img: 30px;
+}
