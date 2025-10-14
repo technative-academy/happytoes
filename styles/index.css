@@ -59,6 +59,7 @@
 .tabs__image-wrapper img {
   width: 100%;
   max-width: 600px;
+  border-radius: var(--radius-img);
 }
 
 .tabs__content {
