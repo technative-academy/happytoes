@@ -56,8 +56,7 @@ This project was a **collaborative effort** between **Yash**, **Louise**, and **
 ### 🧰 Tools & Workflow
 - **GitHub Projects (Kanban board)** for task management  
 - **Issues & Pull Requests** to track progress and review code before merging  
-- **Feature branching** for isolated development and conflict-free merging  
-- **Live Share (VS Code)** for real-time collaboration during development sessions  
+- **Feature branching** for isolated development and conflict-free merging   
 - **Frequent commits and rebasing** to maintain clean, up-to-date branches  
 
 ### ✅ Benefits
@@ -75,7 +74,7 @@ This project was a **collaborative effort** between **Yash**, **Louise**, and **
 | **CSS** | Styling and responsive design |
 | **JavaScript** | Interactivity and dynamic features |
 | **BEM Naming Convention** | Consistent and maintainable class naming |
-| **JavaScript Modules** | Organized and modularized code |
+| **JavaScript Modules** | Organised and modularised code |
 | **Git & GitHub** | Version control and collaboration |
 | **GitHub Pages** | Hosting the live website |
 
@@ -85,7 +84,7 @@ This project was a **collaborative effort** between **Yash**, **Louise**, and **
 
 - Practiced **team-based development** using GitHub’s collaborative tools  
 - Strengthened understanding of **responsive design principles**  
-- Learned how to **modularize JavaScript** for better code organization  
+- Learned how to **modularise JavaScript** for better code organisation  
 - Improved workflow efficiency using **BEM** and **CSS variables**  
 - Understood the importance of **clear version control practices**  
 - Built confidence in combining **HTML, CSS, and JS** to create a fully functional, responsive website  
