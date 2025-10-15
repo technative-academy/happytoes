@@ -1,21 +1,21 @@
-# 🧦 HappyToes — E-Commerce Website
+# HappyToes ecommerce Website
 
-**HappyToes** is a responsive e-commerce website created by **Yash Magane**, **Louise**, and **Yorick**.  
+**HappyToes** is a responsive ecommerce website created by **Yash Magane**, **Louise**, and **Yorick**.  
 The project was part of **TFS – Challenge 4: Company Website**, where the goal was to design and develop a website for a fictional business selling socks.  
 
 Our aim was to build a polished, modern website using **HTML**, **CSS**, and **JavaScript**, while following best practices such as **BEM naming conventions**, **JavaScript modules**, and **collaborative version control** through GitHub.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 🔗 **[View HappyToes on GitHub Pages](https://technative-academy.github.io/happytoes/)**
 
 ---
 
-## 🧩 Project Overview
+## Project Overview
 
-### 📜 Brief
+### Brief
 > Create a company website that sells a chosen product to a target market, based on a supplied Figma design.
 
 We decided to build a website for **HappyToes**, an online sock company offering fun, stylish, and comfortable socks.  
@@ -28,7 +28,7 @@ The design was inspired by the provided [Figma mockup](https://www.figma.com/des
 
 ---
 
-## 🎨 Design & Layout
+## Design & Layout
 
 - Fully **responsive** for both desktop and mobile viewports  
 - **Consistent font and colour scheme** throughout  
@@ -38,35 +38,35 @@ The design was inspired by the provided [Figma mockup](https://www.figma.com/des
 
 ---
 
-## ⚙️ Functionality
+## Functionality
 
 - **Tabs** implemented with JavaScript modules  
 - **Review section animation** on the Home page  
-- **Search bar** on the Product listings page — filters products dynamically as the user types  
-- **Contact form** on the About page — validates user input and displays a thank-you message upon submission  
-- Hosted and version-controlled via **GitHub Pages**
+- **Search bar** on the Product listings page, search bar filters products dynamically as the user types  
+- **Contact form** on the About page user input is validated and displays a thank you message upon submission  
+- Hosted and version controlled via **GitHub Pages**
 
 ---
 
-## 🧠 Development Approach & Workflow
+## Development Approach & Workflow
 
-### 🧩 Team Collaboration
-This project was a **collaborative effort** between **Yash**, **Louise**, and **Yorick**. We adopted a professional development workflow using GitHub’s built-in tools to manage tasks and avoid merge conflicts.
+### Team Collaboration
+This project was a **collaborative effort** between **Yash**, **Louise**, and **Yorick**. We adopted a professional development workflow using GitHub’s built in tools to manage tasks and avoid merge conflicts.
 
-### 🧰 Tools & Workflow
+### Tools & Workflow
 - **GitHub Projects (Kanban board)** for task management  
 - **Issues & Pull Requests** to track progress and review code before merging  
-- **Feature branching** for isolated development and conflict-free merging   
-- **Frequent commits and rebasing** to maintain clean, up-to-date branches  
+- **Feature branching** for isolated development and conflict free merging   
+- **Frequent commits and rebasing** to maintain clean, up to date branches  
 
-### ✅ Benefits
+### Benefits
 - Improved **team coordination**  
 - Practiced **collaborative Git workflows** (branching, reviewing, merging)  
 - Built strong understanding of **version control and team-based development**
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |-------------|----------|
@@ -80,7 +80,7 @@ This project was a **collaborative effort** between **Yash**, **Louise**, and **
 
 ---
 
-## 🧠 Learning Outcomes
+## Learning Outcomes
 
 - Practiced **team-based development** using GitHub’s collaborative tools  
 - Strengthened understanding of **responsive design principles**  
@@ -91,7 +91,7 @@ This project was a **collaborative effort** between **Yash**, **Louise**, and **
 
 ---
 
-## 🧑‍💻 Contributors
+## Contributors
 
 - **Yash Magane** – Developer  
 - **Louise** – Developer  
@@ -99,7 +99,7 @@ This project was a **collaborative effort** between **Yash**, **Louise**, and **
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 Home Page Header:
 <img width="1902" height="854" alt="image" src="https://github.com/user-attachments/assets/70521d00-7072-4462-88e5-a830b14d38f1" />
 Products Page Search Bar:
