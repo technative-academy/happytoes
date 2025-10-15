@@ -85,6 +85,7 @@
 .tabs__item {
   padding: 0 1.25em;
   border-left: 3px solid transparent;
+  cursor: pointer;
 }
 
 .tabs__item-title {
